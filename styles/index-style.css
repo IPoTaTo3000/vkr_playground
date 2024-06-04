@@ -1,0 +1,36 @@
+body {
+    background-image: url('../images/bg3.jpg'); 
+}
+header {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: right;
+    padding: 10px 0;
+}
+footer {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    margin: 20px;
+    flex: 1;
+}
+.button2 {
+    position: fixed;
+    bottom: 60px; /* Увеличил расстояние от нижнего края */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 550px; /* Задаем ширину кнопки */
+    height: 140px; /* Задаем высоту кнопки */
+    background-color: #334CBF; /* Задаем красный цвет фона */
+    color: white; /* Задаем белый цвет текста */
+    border-radius: 30px; /* Задаем радиус скругления для создания овальной формы */
+    border: none; /* Убираем границу */
+    font-size: 30px; /* Увеличиваем размер текста */
+    font-weight: bold; /* Делаем текст жирным */
+}
